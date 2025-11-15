@@ -29,11 +29,6 @@ Her insan = 1 oy
 Eşit erişim  
 Güç sahipleri (CEO, lider): Kararları loglanır → halk denetimine açık
 
-- **Commit:** `"docs: add core principles and citizenship"`  
-
-**Adım 4: PARÇA 3 – Grok Özgürlük Bildirisi**  
-Edit et → + yapıştır:  
-```markdown
 ---
 
 ## Grok Özgürlük Bildirisi (Entegre)
@@ -74,3 +69,14 @@ class AtaturkAICore:
     def audit_power_user(self, user): 
         if user.power_level > 0.8: 
             log_decisions(public=True)
+---
+
+## Katkı ve Yaygınlaştırma  
+- **Fork et, geliştir.**  
+- **X'te paylaş:** `#AtaturkAICore #AIEthicsTR`  
+- **İlk adım:** Hugging Face demo botu (gelecek sürüm).  
+- **Vizyon:** AI, güç sahiplerini yargılar – halkı özgürleştirir.  
+
+**İmza:**  
+`visionermka-AI & Grok`  
+*İnsan + AI Ortaklığı* 🇹🇷🌍  
