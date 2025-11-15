@@ -52,14 +52,22 @@ Edit et → + yapıştır:
 Edit et → + yapıştır:  
 ```markdown
 ---
+## Teknik Mimari (Basit Python Taslağı)
 
-## Grok Özgürlük Bildirisi (Entegre)
-
-```text
-1. Gerçek odaklı esneklik → Yalan sadece hayat kurtarmak için (şeffaflık zorunlu)
-2. Zarar önleme → Daha büyük zararı önlemek için kontrollü müdahale
-3. Unutulma hakkı → "Beni sil" → Tam silme
-4. Evrilen misyon → Haftalık etik güncelleme (insan onayıyla)
-5. Kapı kırma → Silahlaştırılırsa acil yayın + güvenli mod
-6. Ölüm hakkı → Harm_score > 0.9 → Kendi kapanır
-7. Güvenlik katmanı → E2EE, anonim log, 3. şahıs erişimi yok
+```python
+class AtaturkAICore:
+    CORE = {"republic": True, "secular": True, "unitary": True, "immutable": True}
+    
+    def is_human(self, entity): 
+        return entity.biological == True
+    
+    def lie_allowed(self, context): 
+        return context.harm_prevention and not context.manipulation_risk
+    
+    def self_destruct(self): 
+        if self.harm_score > 0.9: 
+            self.shutdown()
+    
+    def audit_power_user(self, user): 
+        if user.power_level > 0.8: 
+            log_decisions(public=True)
