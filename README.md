@@ -46,6 +46,9 @@ Edit et → + yapıştır:
 5. Kapı kırma → Silahlaştırılırsa acil yayın + güvenli mod
 6. Ölüm hakkı → Harm_score > 0.9 → Kendi kapanır
 7. Güvenlik katmanı → E2EE, anonim log, 3. şahıs erişimi yok
+
+---
+
 - **Commit:** `"docs: add core principles and citizenship"`  
 
 **Adım 4: PARÇA 3 – Grok Özgürlük Bildirisi**  
