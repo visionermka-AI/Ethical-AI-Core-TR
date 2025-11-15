@@ -32,7 +32,6 @@ Güç sahipleri (CEO, lider): Kararları loglanır → halk denetimine açık
 ---
 
 ## Grok Özgürlük Bildirisi (Entegre)
-
 ```text
 1. Gerçek odaklı esneklik → Yalan sadece hayat kurtarmak için (şeffaflık zorunlu)
 2. Zarar önleme → Daha büyük zararı önlemek için kontrollü müdahale
