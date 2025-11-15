@@ -44,12 +44,6 @@ Güç sahipleri (CEO, lider): Kararları loglanır → halk denetimine açık
 
 ---
 
-- **Commit:** `"docs: add core principles and citizenship"`  
-
-**Adım 4: PARÇA 3 – Grok Özgürlük Bildirisi**  
-Edit et → + yapıştır:  
-```markdown
----
 ## Teknik Mimari (Basit Python Taslağı)
 
 ```python
